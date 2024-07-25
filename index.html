@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<!-- SEO -->
-	<title>Portfolio de Nina Carducci</title>
+	<!-------- SEO -------->
+	<title>Nina Carducci photos</title>
 	<meta name="description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.">
-	<!-- Style -->
+	
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Product",
+		"name": "Nina Carducci",
+		"image": "https://yougo96.github.io/NinaCarducci/assets/images/nina.webp",
+		"description": "Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer",
+		"url": "https://yougo96.github.io/NinaCarducci/",
+		"offers": {"@type": "Offer", "price": "350", "priceCurrency": "EUR"}
+	}
+	</script>
+	
+	<!--  Essential META Tags -->
+	<meta property="og:title" content="Nina Carducci photos">
+	<meta property="og:type" content="article" />
+	<meta property="og:image" content="./assets/images/nina.webp">
+	<meta property="og:url" content="https://yougo96.github.io/NinaCarducci/">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="og:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.">
+	<meta property="og:site_name" content="Nina Carducci photos">
+	<meta name="twitter:image:alt" content="photo de nina">
+	<!-- <meta property="fb:app_id" content="your_app_id" />
+	<meta name="twitter:site" content="@website-username"> -->
+
+	<!-------- Style -------->
 	<link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
@@ -13,7 +38,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<!-- Script -->
+
+	<!-------- Script -------->
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
@@ -160,6 +186,12 @@
 		<div class="picture right">
 			<img src="./assets/images/camera.webp" alt="photo d'un appareil photo">
 		</div>
+	</div>
+	<hr>
+	<div class="container" style="flex-direction: column; align-items: center;">
+		<a href="https://maps.app.goo.gl/qb7Urk7BZHKfzvD8A" target="_blank">68 avenue Alsace-Lorraine, 33200 Bordeaux</a><br>
+		<a href="tel:+33556677889.">05 56 67 78 89</a>
+		<p>Du lundi au vendredi de 10h à 19h</p>
 	</div>
 </footer>
 </body>
