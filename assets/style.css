@@ -201,6 +201,9 @@ body {
 #contact .container {
 	display: flex;
 }
+#contact .container a {
+	color: black;
+}
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
