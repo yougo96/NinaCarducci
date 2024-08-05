@@ -256,6 +256,10 @@ input[type="submit"] {
 	max-height: 90vh;
 }
 
+.d-none {
+	display: none !important;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
